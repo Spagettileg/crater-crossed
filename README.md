@@ -7,7 +7,7 @@ A live demo can be found [here](https://spagettileg.github.io/crater-crossed/).
 
 ***
 <div align="center">
-<img src="static/images/game-pic.png">
+<img src="static/img/game-pic.png">
 </div>
 
 ## Table of Contents
