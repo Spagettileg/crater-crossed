@@ -108,7 +108,7 @@ No additional styling via fontawesome or materialize was required for this proje
 •	[Balsamiq](https://balsamiq.com/) is a small graphical tool to sketch out user interfaces, for websites and web / desktop / mobile applications and used to visualise my project through mock-up design.
 
 ### Hosting
-•	[GitHub Pages](https://pages.github.com/) is used to host the deployed application - 'Crater-Cross'
+•	[GitHub Pages](https://pages.github.com/) is used to host the deployed application - 'crater-crossed'
 
 
 ## Features
