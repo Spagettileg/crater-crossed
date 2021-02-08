@@ -14,13 +14,8 @@ function Square(props) {
 }
 
 class Board extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      squares: Array(9).fill(null),
-      xIsNext: true,
-    };
-  }
+  // Constructor helps control the Squares by a passing a prop to each Square
+  // User options = X, O or null (blank)
   
   handleClick(i) {
     const squares = this.state.squares.slice();
@@ -35,8 +30,8 @@ class Board extends React.Component {
   }
   
   renderSquare(i) {
-    return (<Square value={this.state.squares[i]}
-    onClick={() => this.handleClick(i)}
+    return (<Square value={this.props.squares[i]}
+    onClick={() => this.props.onClick(i)}
     />
     );
   }
