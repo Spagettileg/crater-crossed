@@ -57,6 +57,7 @@ class Game extends React.Component {
       }],
       stepNumber: 0,
       xIsNext: true,
+      isDescending: true
     };
   }
   
@@ -96,6 +97,12 @@ class Game extends React.Component {
     });
   }
   
+  sortHistory() {
+    this.setState({
+      isDescending: !this.state.isDescending
+    });
+  }
+  
   render() {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
@@ -130,8 +137,11 @@ class Game extends React.Component {
           />
         </div>
         <div className="game-info">
-          <div>{status}</div>
-          <ol>{moves}</ol>
+          <div className="game-status">{status}</div>
+          <ol>{this.state.isDescending ? moves : moves.reverse()}</ol>
+          <button onClick={() => this.sortHistory()}>
+            Sort by: {this.state.isDescending ? "Descending" : "Ascending"}
+          </button>
         </div>
       </div>
     );
@@ -164,14 +174,6 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
-
-
-
-
-
-
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
