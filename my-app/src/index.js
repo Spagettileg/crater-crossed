@@ -131,6 +131,7 @@ class Game extends React.Component {
     }
     
     return (
+      <div className="logo">Crater-Cr<span className="yellow-crater">o</span>ssed
       <div className="game">
         <div className="game-board">
           <Board
@@ -148,6 +149,17 @@ class Game extends React.Component {
             Sort by: {this.state.isDescending ? "Descending" : "Ascending"}
           </button>
         </div>
+      </div>
+      <div className="container-fluid">
+        <div className="row spacer"></div>
+      </div>
+      <footer id="footer" className="container-fluid">
+      <div className="row footer-text">
+        <div className="logo-footer">Crater-Cr<span className="yellow-crater">o</span>ssed</div>
+        <span className="win-outcome"><small>(Win = 3 in a row)</small></span>
+        <p>© Crater-Cross | 2021 | Website design - Paul Friel</p>
+        </div>
+        </footer>
       </div>
     );
   }
