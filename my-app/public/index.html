@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -25,12 +25,28 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-    <link rel="stylesheet" href="static/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="src/index.css" type="text/css" />
   </head>
   <body>
-    <h1>Crater-Crossed</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="logo">Crater-Cr<span class="yellow-crater">o</span>ssed</div>
+        </div>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div class="container-fluid">
+      <div class="row spacer"></div>
+      </div>
+      
+    <footer id="footer" class="container-fluid">
+      <div class="row footer-text">
+        <div class="logo-footer">Crater-Cr<span class="yellow-crater">o</span>ssed</div><br>
+        <span class="win-outcome"><small>(Win = 3 in a row)</small></span>
+        <p>© Crater-Cross | 2021 | Website design - Paul Friel</p>
+        </div>
+        </footer>
+        </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
