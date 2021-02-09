@@ -107,6 +107,7 @@ class Game extends React.Component {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
     const winner = calculateWinner(current.squares);
+    const today = new Date();
     
     const moves = history.map((step, move) => {
       const desc = move ?
@@ -157,7 +158,7 @@ class Game extends React.Component {
       <div className="row footer-text">
         <div className="logo-footer">Crater-Cr<span className="yellow-crater">o</span>ssed</div>
         <span className="win-outcome"><small>(Win = 3 in a row)</small></span>
-        <p>© Crater-Cross | 2021 | Website design - Paul Friel</p>
+        <p>© Crater-Cross | {today.getFullYear()} | Website design - Paul Friel</p>
         </div>
         </footer>
       </div>
