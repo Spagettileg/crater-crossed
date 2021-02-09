@@ -138,6 +138,9 @@ class Game extends React.Component {
             onClick={(i) => this.handleClick(i)}
           />
         </div>
+        <div className="reset">
+          <a href="index.html" className="reset-button">Reset</a>
+        </div>
         <div className="game-info">
           <div className="game-status">{status}</div>
           <ol>{this.state.isDescending ? moves : moves.reverse()}</ol>
