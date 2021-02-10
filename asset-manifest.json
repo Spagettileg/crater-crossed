@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/crater-crossed/static/css/main.4bf1b835.chunk.css",
+    "main.js": "/crater-crossed/static/js/main.41fb156b.chunk.js",
+    "main.js.map": "/crater-crossed/static/js/main.41fb156b.chunk.js.map",
+    "runtime-main.js": "/crater-crossed/static/js/runtime-main.df0652f4.js",
+    "runtime-main.js.map": "/crater-crossed/static/js/runtime-main.df0652f4.js.map",
+    "static/js/2.fed99d89.chunk.js": "/crater-crossed/static/js/2.fed99d89.chunk.js",
+    "static/js/2.fed99d89.chunk.js.map": "/crater-crossed/static/js/2.fed99d89.chunk.js.map",
+    "static/js/3.607680d3.chunk.js": "/crater-crossed/static/js/3.607680d3.chunk.js",
+    "static/js/3.607680d3.chunk.js.map": "/crater-crossed/static/js/3.607680d3.chunk.js.map",
+    "index.html": "/crater-crossed/index.html",
+    "static/css/main.4bf1b835.chunk.css.map": "/crater-crossed/static/css/main.4bf1b835.chunk.css.map",
+    "static/js/2.fed99d89.chunk.js.LICENSE.txt": "/crater-crossed/static/js/2.fed99d89.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/crater-crossed/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df0652f4.js",
+    "static/js/2.fed99d89.chunk.js",
+    "static/css/main.4bf1b835.chunk.css",
+    "static/js/main.41fb156b.chunk.js"
+  ]
+}
