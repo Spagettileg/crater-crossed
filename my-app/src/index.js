@@ -134,7 +134,7 @@ class Game extends React.Component {
     
     useEffect(() => {
       ReactGA.initialize('G-YNN6WB719Y');
-      ReactGA.pageview('/');
+      ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
     
     return (
