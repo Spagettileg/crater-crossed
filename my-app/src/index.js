@@ -2,10 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import ReactGA from 'react-ga';
 import reportWebVitals from './reportWebVitals';
 
-ReactGA.initialize('190421059');
 
 function Square(props) {
   return (
