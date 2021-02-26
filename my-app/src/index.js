@@ -1,8 +1,7 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import ReactGA from 'react-ga';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -131,11 +130,6 @@ class Game extends React.Component {
     } else {
       status = "Next player: " + (this.state.xIsNext ? 'X' : 'O');
     }
-    
-    useEffect(() => {
-      ReactGA.initialize('G-YNN6WB719Y');
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }, []);
     
     return (
       <div className="logo">Crater-Cr<span className="yellow-crater">o</span>ssed
