@@ -5,7 +5,7 @@ import App from './App';
 import ReactGA from 'react-ga';
 import reportWebVitals from './reportWebVitals';
 
-ReactGA.initialize('263532184');
+ReactGA.initialize('G-YNN6WB719Y');
 
 function Square(props) {
   return (
